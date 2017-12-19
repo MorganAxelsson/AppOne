@@ -1,0 +1,2 @@
+C:\Users\lodiz\Documents\Visual Studio 2015\Projects\APPOne\APPOne\APPOne.UWP\APPOne.UWP.csproj;x86
+C:\Users\lodiz\Documents\Visual Studio 2015\Projects\APPOne\APPOne\APPOne\APPOne.csproj;neutral

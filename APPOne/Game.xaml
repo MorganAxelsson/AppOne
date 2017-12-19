@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APPOne.Game" Title="Quiz">
+  <ContentPage.Content Margin="5,35,5,5">
+    <StackLayout>
+      <Button x:Name="btnAnswer1" Text="answer1"></Button>
+      <Button x:Name="btnAnswer2" Text="answer2"></Button>
+      <Button x:Name="btnAnswer3" Text="answer3"></Button>
+      <Button x:Name="btnAnswer4" Text="answer4"></Button>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

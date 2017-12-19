@@ -14,7 +14,7 @@ namespace APPOne
         {
             InitializeComponent();
             Detail = new NavigationPage(new StartPage());
-            IsPresented = false;
+            IsPresented = false; 
 
         }
 
@@ -29,5 +29,12 @@ namespace APPOne
             Detail = new NavigationPage(new StartPage());
             IsPresented = false;
         }
+
+        void Handle_StartGame(object sender, System.EventArgs e)
+        {
+            Detail = new NavigationPage(new Game());
+            IsPresented = false;
+        }
+
     }
 }

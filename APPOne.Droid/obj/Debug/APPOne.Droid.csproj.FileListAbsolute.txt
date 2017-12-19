@@ -55,5 +55,6 @@ C:\Users\lodiz\Documents\Visual Studio 2015\Projects\APPOne\APPOne\APPOne.Droid\
 C:\Users\lodiz\Documents\Visual Studio 2015\Projects\APPOne\APPOne\APPOne.Droid\obj\Debug\res\drawable\hamburger.png
 C:\Users\lodiz\Documents\Visual Studio 2015\Projects\APPOne\APPOne\APPOne.Droid\obj\Debug\res\drawable\m.jpg
 C:\Users\lodiz\Documents\Visual Studio 2015\Projects\APPOne\APPOne\APPOne.Droid\obj\Debug\res\values\styles.xml
+C:\Users\lodiz\Documents\Visual Studio 2015\Projects\APPOne\APPOne\APPOne.Droid\obj\Debug\res\drawable\me.jpg
 C:\Users\lodiz\Documents\Visual Studio 2015\Projects\APPOne\APPOne\APPOne.Droid\obj\Debug\APPOne.Droid.dll.mdb
 C:\Users\lodiz\Documents\Visual Studio 2015\Projects\APPOne\APPOne\APPOne.Droid\bin\Debug\APPOne.Droid.dll.mdb

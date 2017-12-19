@@ -8,7 +8,8 @@
       <ContentPage.Content Margin="5,30,5,5">
         <StackLayout >
           <Label Text="Menu"></Label>
-          <Button x:name="StartPage" Clicked="Handle_StartPage" Text="Start"></Button>
+          <Button x:name="StartPage" Clicked="Handle_StartPage" Text="Home"></Button>
+          <Button x:name="StartGame" Clicked="Handle_StartGame" Text="Start a new quiz"></Button>
           <Button x:name="About" Clicked="Handle_About" Text="About"></Button>
         </StackLayout>
       </ContentPage.Content>
