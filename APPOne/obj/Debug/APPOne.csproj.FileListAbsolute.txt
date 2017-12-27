@@ -14,5 +14,3 @@ C:\Users\lodiz\Documents\Visual Studio 2015\Projects\APPOne\APPOne\APPOne\obj\De
 C:\Users\lodiz\Documents\Visual Studio 2015\Projects\APPOne\APPOne\APPOne\obj\Debug\APPOne.Game.xaml.g.cs
 C:\Users\lodiz\Documents\Visual Studio 2015\Projects\APPOne\APPOne\APPOne\obj\Debug\APPOne.dll.mdb
 C:\Users\lodiz\Documents\Visual Studio 2015\Projects\APPOne\APPOne\APPOne\bin\Debug\APPOne.dll.mdb
-C:\Users\lodiz\Documents\Visual Studio 2015\Projects\APPOne\APPOne\APPOne\obj\Debug\APPOne.dll.mdb
-C:\Users\lodiz\Documents\Visual Studio 2015\Projects\APPOne\APPOne\APPOne\bin\Debug\APPOne.dll.mdb

@@ -19,6 +19,31 @@ namespace APPOne.Data
                     Answer2 ="<section>",
                     Answer3="<div id='menu'>",
                     CorrectAnswer="<nav>"            
+                },
+                new Question
+                {
+                    ID =0,
+                    QuestionText = "What does HTML stand for?",
+                    Answer1 = "super text",
+                    Answer2 ="text",
+                    Answer3="text2",
+                    CorrectAnswer="Hyper Text Markup Language"
+                },new Question
+                {
+                    ID =0,
+                    QuestionText = "if you are going to create a menu which surrounding HTML tag should you use",
+                    Answer1 = "<menu>",
+                    Answer2 ="<section>",
+                    Answer3="<div id='menu'>",
+                    CorrectAnswer="<nav>"
+                },new Question
+                {
+                    ID =0,
+                    QuestionText = "if you are going to create a menu which surrounding HTML tag should you use",
+                    Answer1 = "<menu>",
+                    Answer2 ="<section>",
+                    Answer3="<div id='menu'>",
+                    CorrectAnswer="<nav>"
                 }
             };
 

@@ -3,11 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="APPOne.Game" Title="Quiz">
   <ContentPage.Content Margin="5,35,5,5">
-    <StackLayout>
-      <Button x:Name="btnAnswer1" Text="answer1"></Button>
-      <Button x:Name="btnAnswer2" Text="answer2"></Button>
-      <Button x:Name="btnAnswer3" Text="answer3"></Button>
-      <Button x:Name="btnAnswer4" Text="answer4"></Button>
+    <StackLayout>      
+      <Label x:Name="lblScore"></Label>     
+      <Label x:Name="lblQuestion"></Label>
+      <Button x:Name="btnAnswer1" Text="answer1" Clicked="answer4_handled"></Button>
+      <Button x:Name="btnAnswer2" Text="answer2" Clicked="answer4_handled"></Button>
+      <Button x:Name="btnAnswer3" Text="answer3" Clicked="answer4_handled"></Button>
+      <Button x:Name="btnAnswer4" Text="answer4" Clicked="answer4_handled"></Button>
+      
+      <Button x:Name="btnNextQuestion" Text ="Next question >" BackgroundColor="Blue" Clicked="nextQuestion_handled" IsVisible="False"></Button>
     </StackLayout>
   </ContentPage.Content>
 </ContentPage>
