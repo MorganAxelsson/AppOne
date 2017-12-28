@@ -26,12 +26,9 @@ namespace APPOne
         }
 
         private void LoadQuestion()
-        {
-            btnAnswer1.ClearValue(Button.BackgroundColorProperty);
-            btnAnswer2.ClearValue(Button.BackgroundColorProperty);
-            btnAnswer3.ClearValue(Button.BackgroundColorProperty);
-            btnAnswer4.ClearValue(Button.BackgroundColorProperty);
-
+        {           
+            ResetAnswerButtonsColor();
+            EnableAnswerButtons();
             lblQuestion.Text = currentQuestion.QuestionText;
             btnAnswer1.Text = currentQuestion.Answer1;
             btnAnswer2.Text = currentQuestion.Answer2;
@@ -51,25 +48,23 @@ namespace APPOne
         }
 
         private void CheckAnswer(Button button)
-        {
-            //TODO : async displayalert, goto another screen when finished
+        {           
             if (button.Text == currentQuestion.CorrectAnswer)
             {
                 score++;
                 SetScoreText();
-                button.BackgroundColor = Color.Green;
-                //DisplayAlert("Correct", "Correct answer", "Ok");
+                button.BackgroundColor = Color.Green;               
             }
             else
             {
-                button.BackgroundColor = Color.Red;
-                //DisplayAlert("Wrong", "Wrong answer", "Ok");
+                button.BackgroundColor = Color.Red;               
             }
 
             currentNumber++;
             if (currentNumber < list.Count)
             {
                 currentQuestion = list[currentNumber];
+                DisableAnswerButtons();
                 btnNextQuestion.IsVisible = true;
             }
             else
@@ -81,6 +76,28 @@ namespace APPOne
         private void SetScoreText()
         {
             lblScore.Text = "Score " + score + "/" + list.Count;
+        }
+
+        private void EnableAnswerButtons()
+        {
+            btnAnswer1.IsEnabled = true;
+            btnAnswer2.IsEnabled = true;
+            btnAnswer3.IsEnabled = true;
+            btnAnswer4.IsEnabled = true;
+        }
+        private void DisableAnswerButtons()
+        {
+            btnAnswer1.IsEnabled = false;
+            btnAnswer2.IsEnabled = false;
+            btnAnswer3.IsEnabled = false;
+            btnAnswer4.IsEnabled = false;
+        }
+        private void ResetAnswerButtonsColor()
+        {
+            btnAnswer1.ClearValue(Button.BackgroundColorProperty);
+            btnAnswer2.ClearValue(Button.BackgroundColorProperty);
+            btnAnswer3.ClearValue(Button.BackgroundColorProperty);
+            btnAnswer4.ClearValue(Button.BackgroundColorProperty);
         }
     }
 }

@@ -5,7 +5,7 @@
   <ContentPage.Content Margin="5,35,5,5">
     <StackLayout>      
       <Label x:Name="lblScore"></Label>     
-      <Label x:Name="lblQuestion"></Label>
+      <Label x:Name="lblQuestion" FontSize="14"></Label>
       <Button x:Name="btnAnswer1" Text="answer1" Clicked="answer4_handled"></Button>
       <Button x:Name="btnAnswer2" Text="answer2" Clicked="answer4_handled"></Button>
       <Button x:Name="btnAnswer3" Text="answer3" Clicked="answer4_handled"></Button>
